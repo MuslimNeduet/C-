@@ -1,0 +1,10 @@
+    int a,b,c;
+    a=10;
+    b=12;
+    c=14;
+    float pi = 3.142, delta = 0.000125;
+    string name = "Ahmed";
+    char section, grade;
+    section = 'D';
+    grade = 'A';
+    cout<<a<<endl<<b<<endl<<c<<endl<<pi<<endl<<delta<<endl<<name<<endl<<section<<endl<<grade;

@@ -11,9 +11,9 @@ int main(){
     cout<<"Enter The Value Of N: ";
     cin>>n;
     char ch = 65;
-    for(int i=0; i<=n; i++){
+    for(int i=1; i<=n; i++){
         ch = 64;
-        for(int j=0; j<=n; j++){
+        for(int j=1; j<=n; j++){
         ch = ch +1;
         cout<<ch<<" ";
         }

@@ -16,6 +16,8 @@ int factofnum(int n){
 }
 
 int main(){
-    cout<<factofnum(5);
+    int a;
+    cin>>a;
+    cout<<factofnum(a);
     return 0;
 }
