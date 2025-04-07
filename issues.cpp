@@ -14,8 +14,19 @@ int main(){
     int e,b,c;
     e =10, b=11, c=12;
     cout<<e<<endl<<b<<endl<<c<<endl;
+    cout<<a.size();
+    cout<<a.max_size();
 
-    d= 10;
-    cout<<d;
+    // d= 10;
+    // cout<<d;
+
+    // string f;
+    // cout<<"Enter Your Name: ";
+    // cin>>f;
+    // cout<<"Your Name Is: "<<f;
+
+    // int a,b,c;
+    // cin>>a>>b>>c;
+    // cout<<a<<endl<<b<<endl<<c; //wide space character
     return 0;
 }

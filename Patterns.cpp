@@ -1,20 +1,20 @@
 #include<iostream>
-#include<string>
-#include<algorithm>
-#include<vector>
-#include<cstdio>
-#include<cmath>
-#include<array>
 using namespace std;
-int main(){
-    int n;
-    cout<<"Enter The Number Of Rows: ";
-    cin>>n;
-    for(int i=1; i<=n; i++){
-        for(int j=1; j<=i; j++){
-            cout<<j<<" ";
+
+void printPattern(int n){
+    int num = 1;
+    for(int i = 1; i<=n; i++){
+        int val = num;
+        for(int j = 1; j<=i; j++){
+            cout<<val<<" ";
+            val -=(n-j); //val = val-(n-j) & 6-(6-2) = -2
         }
-        cout<<endl;
+        num+=(n-i); // num = num+(n-i) & 1+(6-1)
+        cout<<endl;}
     }
-return 0;
+int main(){
+    int n = 6;
+    printPattern(n);
+    return 0;
+
 }

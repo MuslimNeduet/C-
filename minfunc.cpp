@@ -7,7 +7,7 @@
 #include<array>
 using namespace std;
 
-int mini(int a, int b){
+float mini(float a, float b){
     if(a>b){
         return b;
     }
@@ -16,6 +16,11 @@ int mini(int a, int b){
     }
 }
 int main(){
-    cout<<mini(11,10);
+    float a,b;
+    cout<<"Enter Your First Numbers: ";
+    cin>>a;
+    cout<<"Enter Your Second Numbers: ";
+    cin>>b;
+    cout<<mini(a,b);
 return 0;
 }
