@@ -27,7 +27,6 @@ int main(){
     }
     }
     cout<<count<<endl;
-
     int narr[count];
     for(int i=(count-1); i>=0; i--){
         narr[i]=num%10;
