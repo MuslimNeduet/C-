@@ -14,7 +14,6 @@ int maxNum(int a, int b, int c){
     else if(c>=b && c>=a){
         maxNumber = c;
     }
-
     return maxNumber;
 }
 

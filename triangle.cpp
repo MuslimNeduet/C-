@@ -15,7 +15,12 @@ int main(){
             cout<<" ";
         }
         for(int k = 1; k <= i; k++){
-            cout<<"#";
+            cout<<"*"; 
+            // cout<<k;
+        }
+        for(int k = 2; k <= i; k++){
+           cout<<"*";
+        //    cout<<k;
         }
         cout<<endl;
     }

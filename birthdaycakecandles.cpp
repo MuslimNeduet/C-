@@ -4,12 +4,18 @@
 #include<string>
 using namespace std;
 int main(){
-    vector<int> candles[m];
-    int n = candles.size();
+    int n;
+    cout<<"Enter The No. Of Element: ";
+    cin>>n;
+    int arr[n];
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+    int candles[n];
     int max = candles[0];
     int count=0;
     for(int i=0; i<n; i++){
-    if(max<candles[i]){
+    if(candles[i]>max){
         max = candles[i];
     }
     }
@@ -18,5 +24,5 @@ int main(){
         count++;
     }
     }
-    return count;
+    cout<<"The No. Of Count Is: "<<count;
     }
