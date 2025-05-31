@@ -7,6 +7,8 @@ int main(){
     int n;
     cout<<"Enter The Limit: ";
     cin>>n;
+    cout<<a<<" ";
+    cout<<b<<" ";
     for(int i=0; i<n-2; i++){
         newterm = a+b;
         cout<<newterm<<" ";
